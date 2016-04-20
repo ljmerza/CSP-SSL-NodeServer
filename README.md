@@ -4,6 +4,8 @@
 csurf tokens for form handling with the csurf package, and enforces SSL with the 
 express-enforces-ssl package. It also properly handles serect keys through arguments.
 
+Security setting recommendations taken from [Mozilla CSP](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#media-src) and [the CSP website](http://content-security-policy.com/)
+
 ##### The flowing helmet options are used:
 
 * CSP options for only allowing js/css/html/images/fonts/ajax from same origin domain 
