@@ -1,0 +1,12 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		titleCSRF example
+	body
+		h1 CSRF form test
+
+		form(method="post" action="/submit")
+  			inpu(name="_csrf" value=csrfToken type="text")
+  			input(type="submit")
+
